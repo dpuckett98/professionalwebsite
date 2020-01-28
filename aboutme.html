@@ -5,6 +5,9 @@
 		<title>DANIEL PUCKETT</title>
 		<meta charset="UTH-8">
 		<style>
+			/* Code excerpts taken from W3Schools (w3schools.com) and ComputerHope (computerhope.com) */
+			
+			
 			/* Add a black background color to the top navigation */
 			.topnav {
 			  background-color: #333;
@@ -39,6 +42,14 @@
 			  display: none;
 			}
 			
+			.rotateimg90 {
+				-webkit-transform:rotate(90deg);
+				-moz-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+				transform: rotate(90deg);
+			}
+			
 			body {
 				background: url(PCB.jpg);
 				font-family: Arial;
@@ -46,8 +57,9 @@
 		</style>
 	</head>
 	
-	<h1>Daniel Puckett </h1>
+	<h1>Daniel Puckett</h1>
 	
+	<! Code excerpt modified from W3Schools (w3schools.com) ->
 	<div class="topnav" id="myTopnav">
 	  <a href="index.html">Home</a>
 	  <a href="aboutme.html" class="active">About Me</a>
@@ -55,11 +67,15 @@
 	  <a href="portfolio.html">Portfolio</a>
 	  <a href="service.html">Service</a>
 	</div>
-
 	
-	<body style="text-align:center;">
-		<h1>About Me</h1>
-		<p>Tadah! It's me!</p>
+	
+	<body style="text-align:left;">
+		<h1 style="text-align:center;">About Me</h1>
+		<img src="MeAndMySister.jpg" alt="MeAndMySister" style="float:left;width:30%;height:30%;" class="rotateimg90";>
+		<img src="CFACow.jpeg" alt="PictureAtCFA" style="float:right;width:25%;height:25%;">
+		
+		<p>Howdy! My name is Daniel Puckett, and I'm a proud member of the fighting Texas Aggie class of 2021! I attend Texas A&M University, where I am a Junior in <a target="_blank" href="https://engineering.tamu.edu/ce/index.html">Computer Engineering</a> with a minor in mathematics. I grew up with my parents, older sister, and younger brother in the Dallas/Ft. Worth area of Texas.  I love programming computers, solving problems, practicing tennis, and playing games!</p>
+		
 	</body>
-	<footer>Image by <a href="https://pixabay.com/users/blickpixel-52945/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Michael Schwarzenberger</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Pixabay</a></footer>
+	<footer>Background image by <a href="https://pixabay.com/users/blickpixel-52945/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Michael Schwarzenberger</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Pixabay</a></footer>
 </html>
